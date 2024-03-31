@@ -1,0 +1,36 @@
+#menu {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #009578;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  height: 50px;
+  outline: none;
+  overflow: hidden;
+  font-family: "Quiksand", sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00b28f;
+  color: aliceblue;
+  transition: 0.4s;
+}
+
+#canvas1 {
+  border: 3px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 800px;
+  width: 500px;
+}
